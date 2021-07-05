@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+    <style>
+        .none {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="calculator-box">
+        <div id="calculator">
+            <h3>Calculator</h3>
+            <input type="text" id="result-box">
+            <div id="table1">
+            <table>
+                <tr>
+                    <td><button>(</button></td>
+                    <td><button>)</button></td>
+                    <td><button>C</button></td>
+                    <td><button>CE</button></td>
+                </tr>
+                <tr>
+                    <td><button>7</button></td>
+                    <td><button>8</button></td>
+                    <td><button>9</button></td>
+                    <td><button>+</button></td>
+                </tr>
+                <tr>
+                    <td><button>4</button></td>
+                    <td><button>5</button></td>
+                    <td><button>6</button></td>
+                    <td><button>-</button></td>
+                </tr>
+                <tr>
+                    <td><button>1</button></td>
+                    <td><button>2</button></td>
+                    <td><button>3</button></td>
+                    <td><button>*</button></td>
+                </tr>
+                <tr>
+                    <td><button>.</button></td>
+                    <td><button>0</button></td>
+                    <td><button>=</button></td>
+                    <td><button>/</button></td>
+                </tr>
+                <div id="next">&raquo;</div>
+            </table>
+        </div>
+            <div id="table2" class="none">
+                <div id="previous">&laquo;</div>
+                <table>
+                    <tr>
+                        <td><button>e</button></td>
+                        <td><button>1/x</button></td>
+                        <td><button>ln</button></td>
+                        <td><button>log</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>sin</button></td>
+                        <td><button>cos</button></td>
+                        <td><button>tan</button></td>
+                        <td><button>&Pi;</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
