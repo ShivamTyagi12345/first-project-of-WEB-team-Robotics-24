@@ -6,4 +6,4 @@ ishita 's calculator| Harsh's calculator|
  
 Ayush's calculator|priya's calculator
 ---------------------|------------------
-<img src="https://user-images.githubusercontent.com/60812924/124389529-2decca00-dd05-11eb-9dfc-f94b32965693.jpeg" height ="300px"/>|<img src="https://user-images.githubusercontent.com/60812924/124987890-f6f71b00-e05a-11eb-97cf-1f9878d76dcb.gif" height ="300px"/>
+<img src="https://user-images.githubusercontent.com/60812924/125201976-22624b80-e28f-11eb-9eac-390c6f726d9f.gif" height ="300px"/>|<img src="https://user-images.githubusercontent.com/60812924/124987890-f6f71b00-e05a-11eb-97cf-1f9878d76dcb.gif" height ="300px"/>
