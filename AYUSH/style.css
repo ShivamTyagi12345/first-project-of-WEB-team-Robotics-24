@@ -1,0 +1,138 @@
+.navbar::before{
+    content: "";
+    position: absolute;
+    top:0;
+    background-color: black;
+    height: 10%;
+    width:100%;
+    opacity: 0.8;
+    
+    z-index:-1;
+    
+} 
+
+.navbar{
+    margin-bottom: 50px;
+    
+    margin-top: 0;
+}
+
+.navbar ul {
+display:flex ;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.navbar ul li {
+    
+    
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 80px;
+    text-align: center;
+}
+@media only screen and (max-width:750px){
+.navbar::before{
+    content: "";
+    position: absolute;
+    top:0;
+    background-color: black;
+    height: 25%;
+    width:100%;
+    opacity: 0.8;
+    
+    z-index:-1;
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.navbar{
+    margin-bottom: 150px;
+}
+}
+.class{
+
+width: 370px;
+margin: auto;
+background-color: rgb(144, 180, 197);
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+border-radius: 100px;
+}
+#screen{
+    font-size: 20px;
+    width:350px;
+    border-radius: 30px;
+}
+section::before{
+content: "";
+    position: absolute;
+    
+    background-image: url('maths.jpg');
+    height: 100%;
+    width:100%;
+    opacity: 0.7;
+    
+    z-index:-1;
+
+}
+section{
+position: relative;
+}
+@media only screen and (max-width:750px){
+    section::before{
+        background-image: none;
+
+    }
+}
+h1{
+font-size: 30px;
+}
+.container{
+
+background-color:wheat;
+width:270px;
+height: 50px;
+border: 2px solid black;
+}
+.button{
+width:70px;
+height: 70px;
+font-size: 20px;
+border-radius: 50%;
+border:none;
+}
+button:hover{
+background-color: black;
+color: white;
+}
+.butto{
+width:70px;
+height: 70px;
+font-size: 20px;
+border-radius: 50%;
+border:none;
+
+}
+
+
+.table{
+
+
+}
