@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=UTF-8>
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" name="output" id="output"> <br> <br>
+        <table>
+
+            <tr>
+                <td>
+                    <input type="button" id="seven" class="button" value="7" onclick="show(7)"></td>
+                <td>
+                    <input type="button" id="eight" class="button" value="8" onclick="show(8)">
+                    <td>
+                        <input type="button" id="nine" class="button" value="9" onclick="show(9)">
+                        <td>
+                            <input type="button" id="divide" class="button" value="/" onclick="show('/')"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" id="four" class="button" value="4" onclick="show(4)"></td>
+                <td>
+                    <input type="button" id="five" class="button" value="5" onclick="show(5)">
+                    <td>
+                        <input type="button" id="six" class="button" value="6" onclick="show(6)">
+                        <td>
+                            <input type="button" id="multiply" class="button" value="*" onclick="show('*')"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" id="one" class="button" value="1" onclick="show(1)">
+                    <td>
+                        <input type="button" id="two" class="button" value="2" onclick="show(2)"></td>
+                    <td>
+                        <input type="button" id="three" class="button" value="3" onclick="show(3)"></td>
+                    <td>
+                        <input type="button" id="add" class="button" value="+" onclick="show('+')"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" id="zero" class="button" value="0" onclick="show(0)"></td>
+                <td>
+                    <input type="button" id="point" class="button" value="." onclick="show('.')"></td>
+                <td>
+                    <input type="button" id="equal" class="button" value="=" onclick="calculate()"></td>
+                <td>
+                    <input type="button" id="minus" class="button" value="-" onclick="show('-')"></td>
+            </tr>
+
+        </table>
+        <input type="button" id="cancel" class="cancel" value="C" onclick="clr()">
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
